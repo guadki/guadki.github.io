@@ -1,0 +1,16 @@
+{
+  "name": "guadki.github.io",
+  "version": "1.0.0",
+  "description": "I wanted to see what writing a personal blog was like, so I started this one.",
+  "main": "index.js",
+  "repository": "https://github.com/guadki/guadki.github.io.git",
+  "author": "guadki <35728938+guadki@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build-ghpages": "npx @11ty/eleventy",
+    "serve": "yarn exec eleventy -- --serve --incremental"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.7"
+  }
+}
